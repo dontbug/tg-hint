@@ -13,8 +13,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdirp dist && terser src/tg-hint.js -o dist/tg-hint.min.js -c -m --comments '/^!/'"
+    "build": "mkdirp dist && terser src/tg-hint.js -o dist/tg-hint.min.js -c -m --comments '/^!/'",
+    "postpublish": "curl -s -X GET \"https://purge.jsdelivr.net/npm/tg-hint@latest/dist/tg-hint.min.js\" || true"
   },
   "repository": {
     "type": "git",
