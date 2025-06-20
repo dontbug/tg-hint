@@ -3,7 +3,25 @@
   "version": "0.0.1",
   "description": "Telegram in-app browser helper overlay",
   "main": "dist/tg-hint.js",
-  "files": ["dist"],
-  "keywords": ["telegram", "webview", "browser"],
-  "license": "MIT"
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "telegram",
+    "webview",
+    "browser"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dontbug/tg-hint.git"
+  },
+  "author": "Anatolii Antoci",
+  "bugs": {
+    "url": "https://github.com/dontbug/tg-hint/issues"
+  },
+  "homepage": "https://github.com/dontbug/tg-hint#readme"
 }

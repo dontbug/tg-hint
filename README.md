@@ -1,4 +1,4 @@
-# tg-hint.js – Telegram In-App Browser Helper
+# Telegram In-App Browser Helper
 
 This 3 kB script detects when your page is opened *inside* Telegram and
 pops up a short instruction telling the user how to open it in their
