@@ -13,7 +13,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdirp dist && terser src/tg-hint.js -o dist/tg-hint.min.js -c -m --comments '/^!/'"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/dontbug/tg-hint/issues"
   },
-  "homepage": "https://github.com/dontbug/tg-hint#readme"
+  "homepage": "https://github.com/dontbug/tg-hint#readme",
+  "devDependencies": {
+    "mkdirp": "^3.0.1",
+    "rollup": "^4.44.0",
+    "terser": "^5.43.1"
+  }
 }
