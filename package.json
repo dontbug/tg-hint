@@ -1,6 +1,6 @@
 {
   "name": "tg-hint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Telegram in-app browser helper overlay",
   "main": "dist/tg-hint.js",
   "files": [
