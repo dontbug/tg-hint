@@ -12,7 +12,7 @@ regular browser (⋯ → **Open in browser**).
 ## Install
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/your-org/tg-hint/tg-hint.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dontbug/tg-hint/dist/tg-hint.min.js"></script>
 ```
 
 
